@@ -1,0 +1,11 @@
+
+train: ./dataset/images/train # train images (relative to 'path')
+val: ./dataset/images/train # val images (relative to 'path')
+test: # test images (optional)
+
+# Classes
+names:
+  0: circle
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
